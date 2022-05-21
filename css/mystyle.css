@@ -9,7 +9,7 @@ body {
 }
 
 
-/* Custom */
+/* Common */
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -30,3 +30,25 @@ body {
   border-bottom-style: solid !important;
   border-bottom-color: rgb(9, 9, 0) !important;
 }
+
+/* Size */
+.w-150 {
+  width: 150px !important;
+}
+.w-90 {
+  width: 90px !important;
+}
+
+.h-180 {
+  height: 180px !important;
+}
+
+/* Color */
+.pink-bg {
+  background-color: #f3cee1;
+}
+
+.blue-bg {
+  background-color: #a3cfd4;
+}
+

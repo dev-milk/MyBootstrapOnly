@@ -17,75 +17,104 @@
 <link href="css/mystyle.css" rel="stylesheet">
   </head>
   <body>
-    
-<header>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <strong>Bootstrap Only</strong>
-      </a>
+
+<div class="container">
+  <header class="d-flex flex-wrap align-items-center  justify-content-md-between py-3 mb-2 border-bottom">
+    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <span class="fs-4">Bootstrap Only</span>
+    </a>
+  
+    <div class="float-sm-end">
+      <div class="dropdown">
+        <!-- トグル -->
+        <button type="button" class="btn btn-dark  w-150 btn-sm dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </button>
+        <!-- ドロップメニュー -->
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Dashboad</a></li>
+          <li><a class="dropdown-item" href="#">Notification</a></li>
+          <li><a class="dropdown-item" href="#">Transaction</a></li>
+          <li><a class="dropdown-item" href="#">Schedule</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
+</div>
 
 <main>
 
-  <div class="py-5">
-    <div class="container">
 
+    <div class="container">
+    <!-- Breadcrumb -->
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#">Home</a></li>
         </ol>
       </nav>
 
-
-      <div class="row  row-cols-auto">
-        <div class="col-12">
-          <h3 class="text-center">React-BootstrapのためのBootsatrapコーディング</h3>
-        </div>
-    
-      </div>
-
-<!-- start -->
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-5">
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="https://placehold.jp/250x80.png" width="100%" >
+      <!-- Notification -->
+      <div class="row g-5 mb-3">
+        <div class="col-sm">
+          <div class="card rounded-0">
             <div class="card-body">
-              <p class="card-text">これはもともとあったアイテム</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">9 mins</small>
+              <p class="card-text">Notification</p>
+              <div class="text-end">
+                  <button type="button" class="btn btn-sm btn-dark rounded-pill w-90">> More</button>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="https://placehold.jp/250x80.png" width="100%" >
+      <!-- Coupon -->
+      <div class="row g-5 mb-3">
+        <div class="col-sm">
+          <div class="card rounded-0">
             <div class="card-body">
-              <p class="card-text">これはもともとあったアイテム</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">9 mins</small>
+              <p class="card-text">Coupon</p>
+              <div class="text-end">
+                  <button type="button" class="btn btn-sm btn-dark rounded-pill w-90">> More</button>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-      <!-- end -->
+
+      <!-- Transaction / Schedule  -->
+      <div class="row g-5 mb-3">
+        <div class="col-sm">
+          <div class="card rounded-0">
+            <div class="m-0 pink-bg h-180" >
+              <span>ここにアイコン入る</span>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Transaction</p>
+              <div class="text-end">
+                  <button type="button" class="btn btn-sm btn-dark rounded-pill w-90">> More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="col-sm">
+            <div class="card  rounded-0">
+              <div class="m-0 blue-bg h-180" >
+                <span>ここにアイコン入る</span>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Schedule</p>
+                <div class="text-end">
+                  <button type="button" class="btn btn-sm btn-dark rounded-pill w-90">> More</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
-  </div>
-
+ 
 </main>
 
 <footer class="text-muted py-5">
