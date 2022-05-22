@@ -56,12 +56,28 @@ body {
 ul .mail-list {
 	list-style: none;
 }
-ul li.mail-list {
-	padding-left: 20px;
+ul li.mail-listg {
+	padding-left: 40px;
 	line-height: 1.6em;
-	background: url(../images/mail-sender01.png) left 0px top 3px no-repeat;
-	background-size: 15px auto;
+	background: url(../images/mail-sender01.png) left 0px top 10px no-repeat;
+	background-size: 30px auto;
 }
+ul li.mail-listp {
+	padding-left: 40px;
+	line-height: 1.6em;
+	background: url(../images/mail-sender02.png) left 0px top 10px no-repeat;
+	background-size: 30px auto;
+}
+ul li.mail-listv {
+	padding-left: 40px;
+	line-height: 1.6em;
+	background: url(../images/mail-sender03.png) left 0px top 10px no-repeat;
+	background-size: 30px auto;
+}
+
+
+
+
 
 
 /* Go Top*/
