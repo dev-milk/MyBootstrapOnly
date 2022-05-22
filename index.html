@@ -45,7 +45,7 @@
 <main>
 
 
-    <div class="container">
+    <div class="container" id="top">
     <!-- Breadcrumb -->
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -56,9 +56,9 @@
       <!-- Notification -->
       <div class="row g-5 mb-3">
         <div class="col-sm">
-          <div class="card rounded-0">
+          <div class="card rounded-0 grid-border">
             <div class="card-body">
-              <p class="card-text">Notification</p>
+              <h3 class="card-text text-center">Notification</h3>
               <div class="text-end">
                   <button type="button" class="btn btn-sm btn-dark rounded-pill w-90">> More</button>
               </div>
@@ -70,9 +70,9 @@
       <!-- Coupon -->
       <div class="row g-5 mb-3">
         <div class="col-sm">
-          <div class="card rounded-0">
+          <div class="card rounded-0 grid-border">
             <div class="card-body">
-              <p class="card-text">Coupon</p>
+              <h3 class="card-text text-center">Coupons</h3>
               <div class="text-end">
                   <button type="button" class="btn btn-sm btn-dark rounded-pill w-90">> More</button>
               </div>
@@ -84,12 +84,12 @@
       <!-- Transaction / Schedule  -->
       <div class="row g-5 mb-3">
         <div class="col-sm">
-          <div class="card rounded-0">
-            <div class="m-0 pink-bg h-180" >
-              <span>ここにアイコン入る</span>
+          <div class="card rounded-0 grid-border">
+            <div class="m-0 pink-bg h-180 position-relative" >
+              <img src="images/pig.png" class="img-fluid position-absolute top-0 start-50">
             </div>
             <div class="card-body">
-              <p class="card-text">Transaction</p>
+              <h3 class="card-text text-center">Transaction</h3>
               <div class="text-end">
                   <button type="button" class="btn btn-sm btn-dark rounded-pill w-90">> More</button>
               </div>
@@ -98,12 +98,12 @@
         </div>
         <div class="col-sm">
           <div class="col-sm">
-            <div class="card  rounded-0">
-              <div class="m-0 blue-bg h-180" >
-                <span>ここにアイコン入る</span>
+            <div class="card  rounded-0 grid-border">
+              <div class="m-0 blue-bg h-180 position-relative" >
+                <img src="images/calendar.png" class="img-fluid position-absolute top-0 start-50 ">
               </div>
               <div class="card-body">
-                <p class="card-text">Schedule</p>
+                <h3 class="card-text text-center">Schedule</h3>
                 <div class="text-end">
                   <button type="button" class="btn btn-sm btn-dark rounded-pill w-90">> More</button>
               </div>
@@ -117,13 +117,15 @@
  
 </main>
 
-<footer class="text-muted py-5">
+<footer class="footer mt-5 py-3  bg-light">
   <div class="container">
+    <span class="text-muted">© devmilk.biz</span>
     <p class="float-end mb-1">
-      <a href="#">Back to top</a>
+      <a href="#top" class="gotop"></a>
     </p>
   </div>
 </footer>
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
 
