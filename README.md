@@ -1,2 +1,5 @@
 # MyBootstrapOnly
-ここはReact-Bootstrapのための練習スペースです。
+React-BootstrapのためのBootstrapサイト
+
+Liveレビュー
+https://devmilk.biz/mybootstraponly/
