@@ -35,6 +35,9 @@ body {
 .w-150 {
   width: 150px !important;
 }
+.w-120 {
+  width: 120px !important;
+}
 .w-90 {
   width: 90px !important;
 }
@@ -56,6 +59,9 @@ body {
 ul .mail-list {
 	list-style: none;
 }
+ul li i {
+  padding-right: 1em;
+}
 ul li.mail-listg {
 	padding-left: 40px;
 	line-height: 1.6em;
@@ -74,9 +80,6 @@ ul li.mail-listv {
 	background: url(../images/mail-sender03.png) left 0px top 10px no-repeat;
 	background-size: 30px auto;
 }
-
-
-
 
 
 
