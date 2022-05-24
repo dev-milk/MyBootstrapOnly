@@ -2,4 +2,4 @@
 React-BootstrapのためのBootstrapサイト
 
 Liveレビュー
-https://devmilk.biz/mybootstraponly/
+https://dev-milk.github.io/MyBootstrapOnly/
