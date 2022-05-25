@@ -46,6 +46,14 @@ body {
   height: 180px !important;
 }
 
+.hv-50 {
+  height: 50vh !important;
+}
+
+.hv-60 {
+  height: 60vh !important;
+}
+
 /* Color */
 .pink-bg {
   background-color: #f3cee1;
@@ -53,6 +61,11 @@ body {
 
 .blue-bg {
   background-color: #a3cfd4;
+}
+
+/* Typography */
+.title-font {
+  font-size: 3rem;
 }
 
 /* List */
@@ -80,7 +93,6 @@ ul li.mail-listv {
 	background: url(../images/mail-sender03.png) left 0px top 10px no-repeat;
 	background-size: 30px auto;
 }
-
 
 
 /* Go Top*/
