@@ -9,27 +9,16 @@ body {
 }
 
 
-/* Common */
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-}
-
+/* Border */
 .border-bottom {
   border-bottom: 3px solid #090909 !important;
   border-bottom-width: 3px !important;
   border-bottom-style: solid !important;
   border-bottom-color: rgb(9, 9, 0) !important;
 }
+.grid-border {
+  border-bottom: inset 5px #090909;
+  }
 
 /* Size */
 .w-150 {
@@ -133,7 +122,3 @@ ul li.mail-listv {
   opacity: 0.5;
 }
 
-/* Grid */
-.grid-border {
-  border-bottom: inset 5px #090909;
-  }
