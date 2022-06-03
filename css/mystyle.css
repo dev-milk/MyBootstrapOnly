@@ -35,6 +35,10 @@ body {
   height: 180px !important;
 }
 
+.h-210 {
+  height: 210px !important;
+}
+
 .hv-50 {
   height: 50vh !important;
 }
@@ -52,10 +56,24 @@ body {
   background-color: #a3cfd4;
 }
 
+.wh-bg {
+ background-color: #fff;
+}
+
 /* Typography */
 .title-font {
   font-size: 3rem;
 }
+
+/* Float Contents */
+.box1, .box2 {
+  display: block;
+  height: 30px;
+  width: 100px;
+  float: right;
+  }
+
+  
 
 /* List */
 ul .mail-list {
