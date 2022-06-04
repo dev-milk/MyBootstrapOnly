@@ -1,85 +1,265 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
     <title>Bootstrap Only</title>
 
-  
-  
-    <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Custom -->
-<link href="css/mystyle.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/mystyle.css" rel="stylesheet" />
   </head>
+
   <body>
-
-<div class="container">
-  <header class="d-flex flex-wrap align-items-center  justify-content-between py-3 mb-2 border-bottom">
-    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-      <span class="fs-4">Bootstrap Only</span>
-    </a>
-  
-    <div class="float-sm-end">
-      <div class="dropdown">
-        <!-- トグル -->
-        <button type="button" class="btn btn-dark  w-150 btn-sm dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          Menu
-        </button>
-        <!-- ドロップメニュー -->
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="index.html">Dashboad</a></li>
-          <li><a class="dropdown-item" href="notification.html">Notification</a></li>
-          <li><a class="dropdown-item" href="transaction.html">Transaction</a></li>
-          <li><a class="dropdown-item" href="schedule.html">Schedule</a></li>
-        </ul>
-      </div>
+    <div class="container">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-between py-3 mb-2 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
+        >
+          <span class="fs-4">Bootstrap Only</span>
+        </a>
+        <div class="float-sm-end">
+          <div class="dropdown">
+            <button
+              type="button"
+              class="btn btn-dark w-150 btn-sm dropdown-toggle"
+            >
+              Menu
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="index.html">Dashboad</a></li>
+              <li>
+                <a class="dropdown-item" href="notification.html"
+                  >Notification</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="transaction.html">Transaction</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="schedule.html">Schedule</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
     </div>
-  </header>
-</div>
 
-<main>
+    <main>
+      <div class="container" id="top">
+        <!-- Breadcrumb-->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+          </ol>
+        </nav>
 
-    <div class="container" id="top">
-    <!-- Breadcrumb -->
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-        </ol>
-      </nav>
-
-       <!-- Transaction / Schedule  -->
-       <div class="row g-4 mb-3">
-
-        <div class="col-sm">
-          <div class="card rounded  pink-bg border-0" >
-            <div class="row g-0">
-              <div class="col-md-6">
-                <div class="m-0  h-180 d-flex align-items-center" >
-                  <img src="images/pig.png" class="d-block mx-auto img-fluid">
+        <!-- Transatction / Schedule -->
+        <div class="row g-4 mb-3">
+          <div class="col-sm">
+            <div class="card rounded pink-bg border-0">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="m-0 h-180 d-flex align-items-center">
+                    <img
+                      src="images/pig.png"
+                      class="d-block mx-auto img-fluid"
+                    />
+                  </div>
                 </div>
-              </div>
 
-              <div class="col-md-6">
-                <div class="card-body">
-                  <div class="row wh-bg my-1">
-                    <div class="col">
-                      <h3 class="card-text text-center">Transaction</h3>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <div class="row wh-bg my-1">
+                      <div class="col">
+                        <h3 class="card-text text-center">Transaction</h3>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <!-- <div class="col"> -->
+
+                      <div class="box2">
+                        <img
+                          src="images/pig-icon.png"
+                          class="d-block mx-auto img-fluid"
+                          alt="Transaction Icon"
+                        />
+                      </div>
+                      <div class="box1">
+                        <div class="text-end my-2">
+                          <a
+                            class="btn btn-sm btn-dark rounded-pill w-90"
+                            href="transaction.html"
+                            role="button"
+                          >
+                            >More
+                          </a>
+                        </div>
+                      </div>
+                      <!-- </div> -->
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="card rounded blue-bg border-0">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="m-0 h-180 d-flex align-items-center">
+                    <img
+                      src="images/calendar.png"
+                      class="d-block mx-auto img-fluid"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <div class="row wh-bg my-1">
+                      <div class="col">
+                        <h3 class="card-text text-center">Schedule</h3>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <!-- <div class="col"> -->
+                      <div class="box2">
+                        <img
+                          src="images/calendar-icon.png"
+                          class="d-block mx-auto img-fluid"
+                          alt="Calendar Icon"
+                        />
+                      </div>
+
+                      <div class="box1">
+                        <div class="text-end my-2">
+                          <a
+                            class="btn btn-sm btn-dark rounded-pill w-90"
+                            href="schedule.html"
+                            role="button"
+                          >
+                            >More
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Notification -->
+        <div class="row g-4 mb-3">
+          <div class="col-sm">
+            <div class="card rounded-top grid-border">
+              <div class="card-body">
+                <h3 class="card-text text-center">Notification</h3>
+
+                <div class="d-md-flex justify-content-between">
+                  <div class="flex-fill align-self-center">
+                    <img
+                      src="images/mail.png"
+                      class="d-block mx-auto img-fluid"
+                    />
+                  </div>
+
+                  <div class="flex-fill">
+                    <ul class="list-group list-group-flush mail-list">
+                      <li class="list-group-item mail-listg">
+                        Support Server maintenance<small>7days ago</small>
+                      </li>
+                      <li class="list-group-item mail-listp">
+                        Campain 10%OFF Monday Only 1 week ago
+                      </li>
+                      <li class="list-group-item mail-listv">
+                        Feedback Your Yutor 2weeks ago
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="flex-fill align-self-md-end text-center pb-1">
+                    <a
+                      class="btn btn-sm btn-dark rounded-pill w-90"
+                      href="notification.html"
+                      role="button"
+                      >> More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coupon -->
+        <div class="row g-5 mb-3">
+          <div class="col-sm">
+            <div class="card rounded-0 grid-border">
+              <div class="card-body">
+                <h3 class="card-text text-center">Coupons</h3>
+
+                <div class="container mx-auto" style="width: 80%">
                   <div class="row">
-                    <div class="col">
-                    <div class="box1">
-                      <div class="text-end my-2">
-                        <a class="btn btn-sm btn-dark rounded-pill w-90" href="transaction.html" role="button">> More</a>
+                    <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
+                      <img src="images/10off.png" class="img-fluid" />
+                      <p>Until June30</p>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-dark rounded-pill w-120"
+                        data-bs-toggle="modal"
+                        data-bs-target="#TenoffModal"
+                      >
+                        Get Coupon
+                      </button>
                     </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
+                      <img src="images/25off.png" class="img-fluid" />
+                      <p>Until May 31</p>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-dark rounded-pill w-120"
+                      >
+                        Get Coupon
+                      </button>
                     </div>
-                    <div class="box2">
-                      <img src="images/pig-icon.png" class="d-block mx-auto img-fluid">
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
+                      <img src="images/20off.png" class="img-fluid" />
+                      <p>Weedday Only</p>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-dark rounded-pill w-120"
+                      >
+                        Get Coupon
+                      </button>
                     </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
+                      <img src="images/15off.png" class="img-fluid" />
+                      <p>Weekend Only</p>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-dark rounded-pill w-120"
+                      >
+                        Get Coupon
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -88,149 +268,56 @@
           </div>
         </div>
 
-        <div class="col-sm">
-          <div class="card rounded  blue-bg border-0" >
-            <div class="row g-0">
-              <div class="col-md-6">
-                <div class="m-0  h-180 d-flex align-items-center" >
-                  <img src="images/calendar.png" class="d-block mx-auto img-fluid">
-                </div>
+        <!--Modal-->
+        <div
+          class="modal fade"
+          id="TenoffModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">10% OFF</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="閉じる"
+                ></button>
               </div>
-
-              <div class="col-md-6">
-                <div class="card-body">
-                  <div class="row wh-bg my-1">
-                    <div class="col">
-                      <h3 class="card-text text-center">Schedule</h3>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                    <div class="box1">
-                      <div class="text-end my-2">
-                        <a class="btn btn-sm btn-dark rounded-pill w-90" href="schedule.html" role="button">> More</a>
-                    </div>
-                    </div>
-                    <div class="box2">
-                      <img src="images/calendar-icon.png" class="d-block mx-auto img-fluid">
-                    </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="modal-body">
+                <p>
+                  ここに10%OFFクーポンが並びます。最初のモーダルは10%OFFのみで、他のクーポンのモーダルは後で追加します。
+                </p>
               </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  閉じる
+                </button>
+              </div>
+              <!-- /.modal-footer -->
             </div>
+            <!-- /.modal-content -->
           </div>
+          <!-- /.modal-dialog -->
         </div>
-
-         </div>
-
-      <!-- Notification -->
-      <div class="row g-4 mb-3">
-        <div class="col-sm">
-          <div class="card rounded-top grid-border">
-            <div class="card-body">
-              <h3 class="card-text text-center">Notification</h3>
-
-              <div class="d-md-flex justify-content-between"> 
-                
-                <div class="flex-fill align-self-center" >
-                  <img src="images/mail.png" class="d-block mx-auto img-fluid">
-                </div>
-                
-                <div class="flex-fill">
-                  <ul class="list-group list-group-flush mail-list" >
-                    <li class="list-group-item mail-listg">Support Server maintenance<small>7days ago</small></li>
-                    <li class="list-group-item mail-listp">Campain 10%OFF Monday Only 1 week ago</li>
-                    <li class="list-group-item mail-listv">Feedback Your Yutor  2weeks ago</li>
-                  </ul>
-                </div>
-
-                <div class="flex-fill align-self-md-end text-center pb-1">
-                  <a class="btn btn-sm btn-dark rounded-pill w-90 mt-5" href="notification.html" role="button">> More</a>
-                </div>
-              </div>
-
-                </div>
-            </div>
-          </div>
-        </div>
-      
-
-      <!-- Coupon -->
-      <div class="row g-5 mb-3">
-        <div class="col-sm">
-          <div class="card rounded-0 grid-border">
-            <div class="card-body">
-              <h3 class="card-text text-center">Coupons</h3>
-
-              <div class="container mx-auto " style="width:80%;">
-                <div class="row"> 
-                  <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
-                    <img src="images/10off.png" class="img-fluid">
-                 <p>Until June30</p>
-                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120" data-bs-toggle="modal" data-bs-target="#TenoffModal">Get Coupon</button>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
-                    <img src="images/25off.png" class="img-fluid">
-                 <p>Until May 31</p>
-                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120">Get Coupon</button>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
-                    <img src="images/20off.png" class="img-fluid">
-                 <p>Weedday Only</p>
-                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120">Get Coupon</button>
-                  </div>
-
-                  <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
-                    <img src="images/15off.png" class="img-fluid">
-                 <p>Weekend Only</p>
-                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120">Get Coupon</button>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- /.modal -->
       </div>
-
-      <!-- modal -->
-<div class="modal fade" id="TenoffModal" tabindex="-1" aria-labelledby="exampleModalLabel">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">10% OFF</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="閉じる"></button>
+    </main>
+    <footer class="footer mt-5 py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">© devmilk.biz</span>
+        <p class="float-end mb-1">
+          <a href="#top" class="gotop"></a>
+        </p>
       </div>
-      <div class="modal-body">
-        <p>ここに10%OFFクーポンが並びます。最初のモーダルは10%OFFのみで、他のクーポンのモーダルは後で追加します。</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
-      </div><!-- /.modal-footer -->
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-      </div>
-
-    </div>
- 
-</main>
-
-<footer class="footer mt-5 py-3  bg-light">
-  <div class="container">
-    <span class="text-muted">© devmilk.biz</span>
-    <p class="float-end mb-1">
-      <a href="#top" class="gotop"></a>
-    </p>
-  </div>
-</footer>
-
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-
-      
   </body>
 </html>
