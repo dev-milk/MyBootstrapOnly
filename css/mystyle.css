@@ -21,14 +21,18 @@ body {
   }
 
 /* Size */
-.w-150 {
-  width: 150px !important;
+
+.w-90 {
+  width: 90px !important;
 }
 .w-120 {
   width: 120px !important;
 }
-.w-90 {
-  width: 90px !important;
+.w-130 {
+  width: 130px !important;  /* ボタンサイズ */
+}
+.w-150 {
+  width: 150px !important;
 }
 
 .h-180 {
@@ -37,6 +41,10 @@ body {
 
 .h-210 {
   height: 210px !important;
+}
+
+.h-250 {
+  height: 250px !important; /* グリッドサイズ */
 }
 
 .hv-50 {
