@@ -9,7 +9,6 @@
     <title>Bootstrap Only</title>
 
   
-  
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom -->
@@ -140,25 +139,27 @@
                   <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
                     <img src="images/10off.png" class="img-fluid">
                  <p>Until June30</p>
-                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120" data-bs-toggle="modal" data-bs-target="#TenoffModal">Get Coupon</button>
+                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120" data-bs-toggle="modal" data-bs-target="#TenoffModal-1">Get Coupon</button>
                   </div>
 
                   <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
                     <img src="images/25off.png" class="img-fluid">
                  <p>Until May 31</p>
-                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120">Get Coupon</button>
+                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120" data-bs-toggle="modal" data-bs-target="#TenoffModal-2">
+                  Get Coupon</button>
                   </div>
 
                   <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
                     <img src="images/20off.png" class="img-fluid">
                  <p>Weedday Only</p>
-                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120">Get Coupon</button>
+                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120"
+                data-bs-toggle="modal" data-bs-target="#TenoffModal-3">Get Coupon</button>
                   </div>
 
                   <div class="col-md-3 col-sm-6 col-xs-12 py-3 text-center">
                     <img src="images/15off.png" class="img-fluid">
                  <p>Weekend Only</p>
-                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120">Get Coupon</button>
+                <button type="button" class="btn btn-sm btn-dark rounded-pill w-120" data-bs-toggle="modal" data-bs-target="#TenoffModal-4">Get Coupon</button>
                   </div>
                 </div>
 
@@ -168,8 +169,8 @@
         </div>
       </div>
 
-      <!-- modal -->
-<div class="modal fade" id="TenoffModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+<!-- modal-1 -->
+<div class="modal fade" id="TenoffModal-1" tabindex="-1" aria-labelledby="ModalLabel">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -177,16 +178,71 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="閉じる"></button>
       </div>
       <div class="modal-body">
-        <p>ここに10%OFFクーポンが並びます。最初のモーダルは10%OFFのみで、他のクーポンのモーダルは後で追加します。</p>
+        <p>10%OFFクーポンを贈呈します。コンタクトフォームから申請してください。</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
-      </div><!-- /.modal-footer -->
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
       </div>
+    </div>
+  </div>
+</div>
 
+<!-- modal-2 -->
+<div class="modal fade" id="TenoffModal-2" tabindex="-1" aria-labelledby="ModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">25% OFF</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="閉じる"></button>
+      </div>
+      <div class="modal-body">
+        <p>25%OFFクーポンを贈呈します。コンタクトフォームから申請してください。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal-3 -->
+<div class="modal fade" id="TenoffModal-3" tabindex="-1" aria-labelledby="ModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">20% OFF</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="閉じる"></button>
+      </div>
+      <div class="modal-body">
+        <p>20%OFFクーポンを贈呈します。コンタクトフォームから申請してください。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal-4 -->
+<div class="modal fade" id="TenoffModal-4" tabindex="-1" aria-labelledby="ModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">15% OFF</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="閉じる"></button>
+      </div>
+      <div class="modal-body">
+        <p>15%OFFクーポンを贈呈します。コンタクトフォームから申請してください。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
     </div>
  
 </main>
